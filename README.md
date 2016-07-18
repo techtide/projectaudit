@@ -10,11 +10,14 @@ A piece of open-source Java software which assists in the management of software
 # Travis-CI
 
 # TO-DO
-+ Setup GUI
++ Setup GUI (v0.5 GUI partially completed)
 + Setup save system
 + Export to Excel option (?)
 + Setup management system
 
+# My Tools
++ Netbeans
++ Chrome
 
 # Donate (time or money!)
 This is a project that I'm working on, just to recall and continue using Java (I left it for a while).  If you'd like (for some reason) to support the development of this project, you can donate. However, it'd be even better if I could get people to submit pull requests, or share this program (that is, if it is of any use to you).
