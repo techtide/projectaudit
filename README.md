@@ -11,6 +11,11 @@ You'll be added to this list if you send an accepted pull request.
 
 Main menu. It does need a new, and fresh, look.
 
+# Downloads
+Get latest development build: download Netbeans and do it yourself.
+Stable builds:
+1.0: 
+
 # TO-DO
 + Setup GUI (v0.5 GUI partially completed)
 + Setup save system
