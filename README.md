@@ -1,13 +1,15 @@
 # Project Audit
-A piece of open-source Java software which assists in the management of software projects (not just on Github).
+A piece of open-source Java software which assists in the management of software projects (not just on Github). Feel free to send pull requests and give feedback!
 
 # Collaborators
+You'll be added to this list if you send an accepted pull request.
 - techtide
 
 
 # Screenshots
 
 # Travis-CI
+
 
 # TO-DO
 + Setup GUI (v0.5 GUI partially completed)
