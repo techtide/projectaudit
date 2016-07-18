@@ -7,9 +7,8 @@ You'll be added to this list if you send an accepted pull request.
 
 
 # Screenshots
-
-# Travis-CI
-
+![Alt text](https://gyazo.com/0d0dc70305a47bed6cacdcbf1fcff053 "Main menu of development version 0.5.")
+Main menu. It does need a new, and fresh, look.
 
 # TO-DO
 + Setup GUI (v0.5 GUI partially completed)
