@@ -7,7 +7,8 @@ You'll be added to this list if you send an accepted pull request.
 
 
 # Screenshots
-![Alt text](https://gyazo.com/0d0dc70305a47bed6cacdcbf1fcff053 "Main menu of development version 0.5.")
+![ScreenShot](https://gyazo.com/0d0dc70305a47bed6cacdcbf1fcff053.png)
+
 Main menu. It does need a new, and fresh, look.
 
 # TO-DO
