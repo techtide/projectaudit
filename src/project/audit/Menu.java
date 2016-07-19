@@ -37,6 +37,7 @@ public class Menu extends javax.swing.JFrame {
         projectAuditLabel.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
         projectAuditLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         projectAuditLabel.setText("Project Audit");
+        projectAuditLabel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         versionLabel.setText("Version 0.5. Maintained and created by techtide.");
 
@@ -48,6 +49,11 @@ public class Menu extends javax.swing.JFrame {
         });
 
         manageProjectsButton.setText("Manage Existing Projects");
+        manageProjectsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                manageProjectsButtonActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -73,7 +79,7 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(addProjectButton)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(manageProjectsButton)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 8, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(versionLabel))
         );
 
@@ -84,7 +90,14 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.out.println("Add project button clicked.");
         new AddProject().setVisible(true);
+        this.setVisible(false);
     }//GEN-LAST:event_addProjectButtonMouseClicked
+
+    private void manageProjectsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageProjectsButtonActionPerformed
+        System.out.println("Add project button clicked.");
+        new AddProject().setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_manageProjectsButtonActionPerformed
 
     /**
      * @param args the command line arguments

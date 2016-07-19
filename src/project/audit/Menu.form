@@ -47,7 +47,7 @@
               <Component id="addProjectButton" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="manageProjectsButton" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="8" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Component id="versionLabel" min="-2" max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -61,6 +61,11 @@
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Project Audit"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+            <BevelBorder/>
+          </Border>
+        </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="versionLabel">
@@ -80,6 +85,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Manage Existing Projects"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="manageProjectsButtonActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

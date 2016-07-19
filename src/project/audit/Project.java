@@ -4,20 +4,27 @@
  * and open the template in the editor.
  */
 package project.audit;
-
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.LinkedList;
 
 /**
  *
  * @author Greenie
  */
-public class Project {
+public class Project implements Serializable {
 
-    List<String> projectName = new ArrayList<>();
+    static List<String> projectName = new ArrayList<>();
     List<Integer> projectBudget = new ArrayList<>();
     List<String> projectWebsite = new ArrayList<>();
     List<String> projectCollaborators = new ArrayList<>();
     List<String> projectDescription = new ArrayList<>();
+    
+    public static void saveArray() {
+        for(int i = 1; i<= projectName.size(); i++) {
+            ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("ProjectNames.pa"));
+            os.writeObject(projectName);
+            os.close();
+        }
+    }S
 }
